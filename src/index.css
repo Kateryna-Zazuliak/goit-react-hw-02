@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+body {
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  border-radius: 2px;
+  border: 1px solid gray;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: inherit;
+  background-color: lightgray;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto #3841ed;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 70px;
+  text-align: start;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
